@@ -5,8 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osama Hroub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquareis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+    <header>
+        <div class="navbar">
+          <div class="logo"><a href="#"><img src="picitems/logo.png" alt="logo"></a></div> 
+          <ul class="link">
+            <li><a href="hero">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="service">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+         
+          <a href="#" class="action-btn">Download CV</a>
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="dropdown">
+            <li><a href="hero">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="service">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="#" class="action-btn">Download CV</a></li>
+        </div>
+    </header>
+    <section id="profile">
+        <div class ="section_pic">
+            <img src="picitems/osama.png" alt="Profile Picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I`m</p>
+            <h1 class="title">Osama Hroub</h1>
+            <p class="section_text_p2">Front End Developer</p>
+            <div class="socials-container">
+                <img src="picitems/github.png" alt="GitHub Profile" class="icon" target="_blank" onclick="location.href='https://github.com/7roubb'">
+                <img src="picitems/linkedin.png" alt="LinkedIn Profile" class="icon" target="_blank" onclick="location.href='https://www.linkedin.com/in/osama-alhroub-06b745206/'">
+
+            </div>
+        </div>
+    </section>
+    <script src ="script.js"></script>
 </body>
 </html>
